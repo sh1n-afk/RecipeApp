@@ -1,5 +1,9 @@
 import SwiftUI
 
+struct RecipeDetailsView: View {
+    let recipe: Recipe
+    @State private var recipeInformation: RecipeInformation?
+    @State private var recipeImage: UIImage?
 
     var body: some View {
         ScrollView {
